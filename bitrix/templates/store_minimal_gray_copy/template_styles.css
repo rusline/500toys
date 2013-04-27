@@ -715,7 +715,7 @@ div.catalog-main-item
 div.catalog-item-separator {background: url(images/fade-catalog.gif) no-repeat left center; height: 1.7em; font-size: 1em;display:none}
 div.catalog-item-info { float: center;}
 div.catalog-main-item div.catalog-main-item-links {width: 220px;font-size: 0.9em;}
-div.catalog-main-item div.catalog-main-item-links a{padding-left:20px; padding-top:-38px}
+div.catalog-main-item div.catalog-main-item-links a{padding-top:-38px}
 div.catalog-main-item-title { padding-bottom: 1em;height:30px;}
 div.catalog-main-item-title a { font-size: 0.90em; margin-top: -4px; font-weight:bold;text-decoration:none;text-align:center;}
 
@@ -737,3 +737,55 @@ s {color: RED;}
 .ageTitle {float:left; padding: 3px 5px 0 1px; }
 
 a.target { text-decoration: none; color:#199700;}
+
+
+/* ----- */
+
+#mframe{border: 9px solid;border-color:white;width:990px;height:100%;padding:0px 0px 0px 0px;border-radius:9px; -webkit-border-radius:6px; -moz-border-radius:5px; -khtml-border-radius:10px;}
+
+#top-menu{margin:0;padding:0;border-top:1px solid #fff;border-bottom:1px solid #fff} 
+#top-menu ul.store-horizontal li{margin:0 !important;padding:0;width:198px} 
+#top-menu ul.store-horizontal li a{margin:0 !important;padding:0;display:block;line-height:24px;border-left:1px solid #fff} 
+#top-menu ul li:first-child a{border:0} 
+
+.ageForm {width: 420px;}
+.ageForm .ageTitle{float:none;padding-left:184px}
+#breadcrumb-search{margin-top:0;position:relative}
+#breadcrumb-search .ui-dropdownchecklist-selector{width:220px !important;margin-top:2px}
+#breadcrumb-search #search{margin-top:20px}
+.form-button{border:0 !important;background:none !important;margin:0 3px 0 0;}
+.form-button input {cursor: pointer; display: block;    font-size: 12px;    height: 19px;    margin: 0;    outline: medium none;    padding: 0;
+	-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;-moz-box-shadow:2px 2px 2px #ccc; -webkit-box-shadow: 2px 2px 2px #ccc; box-shadow:2px 2px 2px #ccc;behavior: url(PIE.htc);position:relative;border:2px solid #fff;font-family:Arial, Helvetica, sans-serif;padding:2px 10px;height:auto
+}
+
+#breadcrumb-search .view-box{position:absolute;top:5px;width:200px;left:500px;text-align:center}
+#breadcrumb-search .view-box input {cursor: pointer; float:left;    font-size: 12px;    height: 19px;    margin: 0;    outline: medium none;    padding: 0;
+	-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;-moz-box-shadow:2px 2px 2px #ccc; -webkit-box-shadow: 2px 2px 2px #ccc; box-shadow:2px 2px 2px #ccc;behavior: url(PIE.htc);position:relative;border:2px solid #fff;font-family:Arial, Helvetica, sans-serif;padding:1px 10px;height:auto;background:#39AC42;color:#fff;width:90px;margin:0 2px
+}
+#breadcrumb-search .view-box input.act {background:#f5dc68;color:#000}
+
+.newposition .catalog-main-item-title{overflow:hidden;padding-bottom:0}
+.newposition div.catalog-main-item{width:161px;padding:10px 9px;height:320px}
+.newposition div.catalog-item-desc{width:auto;padding:0;margin:0;font-size:90%;}
+.newposition table td div.catalog-item-desc{height:90px;overflow:hidden;margin-bottom:5px}
+.newposition table td div.catalog-item-desc span.noitem{color:#F00}
+.newposition div.catalog-item-image {width:160px;height:150px;margin:0 !important}
+.newposition div.catalog-main-item div.catalog-main-item-links{width:160px;}
+.newposition div.catalog-item-price{font-size:90%;font-weight:normal;color:#686466}
+.newposition div.catalog-item-price span{font-size:120%;font-weight:bold;display:block;color:#5f7513}
+.newposition div.catalog-main-item-links a{background:none;padding:0}
+.newposition div.catalog-main-item-links a img{margin:5px 5px 0 0}
+
+.view-b{clear:both;padding:10px 0}
+.view-b input {cursor: pointer; font-size: 12px;    height: 19px;    margin: 0;    outline: medium none;    padding: 0;
+	-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;-moz-box-shadow:2px 2px 2px #ccc; -webkit-box-shadow: 2px 2px 2px #ccc; box-shadow:2px 2px 2px #ccc;behavior: url(PIE.htc);position:relative;border:2px solid #fff;font-family:Arial, Helvetica, sans-serif;padding:2px 10px;height:auto;background:#39AC42;color:#fff;width:80%;margin:0 auto;display:block;text-align:center
+}
+
+.message-bbox{position:absolute;width:260px;padding:10px 20px;text-align:center;top:250px;left:50%;margin-left:-150px;background:#fff;border:2px solid #39AC42;}
+.message-bbox .close-message{position:absolute;top:-14px;right:-14px}
+.message-bbox .close-message a{display:block;background:url(jquery/fancybox/fancybox.png) -40px 0 no-repeat;width:30px;height:30px}
+.message-bbox div{text-align:left;padding:0 15px 10px 15px}
+.message-bbox div label{display:block;padding:0 0 4px 0;}
+.message-bbox div input{border:1px solid #D6D6D6;padding:2px 10px;width:206px}
+.message-bbox input[type="submit"] {cursor: pointer; font-size: 12px;    height: 19px;    margin: 0;    outline: medium none;    padding: 0;
+	-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;-moz-box-shadow:2px 2px 2px #ccc; -webkit-box-shadow: 2px 2px 2px #ccc; box-shadow:2px 2px 2px #ccc;behavior: url(PIE.htc);position:relative;border:2px solid #fff;font-family:Arial, Helvetica, sans-serif;padding:2px 10px;height:auto;background:#39AC42;color:#fff;width:200px;margin:0 auto;display:block}
