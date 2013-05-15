@@ -1,3 +1,8 @@
+$(document).ready(function(){
+    columnConform('.newposition > div');
+});
+
+
 function AfterNewShow(data){
   $("#main-new-block-inner").empty().append(data).fadeIn("slow");
 }
@@ -15,7 +20,7 @@ function disableAddToCart(elementId, mode, text)
 	var	element = document.getElementById(elementId);
 	if (!element)
 		return;
-	
+
 	if (mode == "detail")
 		$(element).html("<span>" + text + "</span>").toggleClass("disabled")
 			.removeAttr("href").unbind('click').css("cursor", "default");
@@ -119,7 +124,7 @@ function disableAddToCompare(elementId, text)
 
 function addToCompare(element, text)
 {
-	if (!element || !element.href) 
+	if (!element || !element.href)
 		return;
 
 	var href = element.href;
@@ -134,7 +139,7 @@ function addToCompare(element, text)
 
 				var compare = $("#compare");
 				compare.html(data);
-				
+
 				this.text(text);
 
 				if (compare.css("display") == "none") {
@@ -144,13 +149,13 @@ function addToCompare(element, text)
 			}, button
 		)
 	);
-	
+
 	return false;
 }
 $(document).ready(function(){
-  $("#ageSelect").dropdownchecklist( {emptyText: "любой", icon: {}, width: 429 } ); 
+  $("#ageSelect").dropdownchecklist( {emptyText: "любой", icon: {}, width: 429 } );
   $(".reminder").fancybox({
-    width: "150", 
+    width: "150",
     height: "30",
     type: "iframe"
   });
